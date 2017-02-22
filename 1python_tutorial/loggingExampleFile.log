@@ -1,0 +1,6 @@
+DEBUG:root:logging to file debug , debugging message
+WARNING:root:logging to file warning, watch out
+INFO:root:logging to file inof , be careful
+DEBUG:root:logging to file debug , debugging message
+WARNING:root:logging to file warning, watch out
+INFO:root:logging to file inof , be careful

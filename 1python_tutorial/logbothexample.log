@@ -1,0 +1,3 @@
+Wed, 22 Feb 2017 23:13:11 logging2.py [line:23] DEBUGlogging both debug message
+Wed, 22 Feb 2017 23:13:11 logging2.py [line:24] INFOlogging both info message
+Wed, 22 Feb 2017 23:13:11 logging2.py [line:25] WARNINGlogging both warning message
