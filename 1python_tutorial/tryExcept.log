@@ -1,0 +1,16 @@
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "try1.py", line 32, in main
+    fun3('0')
+  File "try1.py", line 28, in fun3
+    return fun2(s)
+  File "try1.py", line 25, in fun2
+    return 10/int(s)
+ZeroDivisionError: division by zero
+ERROR:root:invalid literal for int() with base 10: 's'
+Traceback (most recent call last):
+  File "try1.py", line 38, in main
+    test_myException('s')
+  File "try1.py", line 47, in test_myException
+    n = int(s)
+ValueError: invalid literal for int() with base 10: 's'

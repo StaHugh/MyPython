@@ -24,5 +24,10 @@ python 学习计划
 	测试模块类中的函数
 
 2.logging 的基本使用方法  ---OK
+	logging 到console
+	logging 到file
+	同时logging到file和console
+
+3.异常处理和调试
 	
 
