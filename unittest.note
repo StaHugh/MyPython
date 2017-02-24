@@ -30,3 +30,22 @@ unittest.main()提供了测试脚本的命令行界面。
 
 --locals
     在traceback中显示局部变量。
+
+
+运行单元测试
+一旦编写好单元测试，我们就可以运行单元测试。最简单的运行方式是在mydict_test.py的最后加上两行代码：
+if __name__ == '__main__':
+    unittest.main()
+这样就可以把mydict_test.py当做正常的python脚本运行：
+$ python3 mydict_test.py
+
+另一种方法是在命令行通过参数-m unittest直接运行单元测试：
+$ python3 -m unittest mydict_test
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+这是推荐的做法，因为这样可以一次批量运行很多单元测试，并且，有很多工具可以自动来运行这些单元测试。
+
+setUp()和tearDown()方法----可以避免在每个测试用例中写相同的代码。

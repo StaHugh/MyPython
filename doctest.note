@@ -1,0 +1,34 @@
+def abs(n):
+    '''
+    Function to get absolute value of number.
+
+    Example:
+
+    >>> abs(1)
+    1
+    >>> abs(-1)
+    1
+    >>> abs(0)
+    0
+    '''
+    return n if n >= 0 else (-n)
+
+class Myclass:
+    '''
+    comment ...
+
+    >>> ...
+    ...
+    ...
+
+    def func():
+        ...
+
+
+
+if __name__=='__main__':
+    import doctest
+    doctest.testmod()
+
+
+如上模式就可以生成运行doctest 
